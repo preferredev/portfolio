@@ -1,27 +1,18 @@
 # Mehdi Portfolio
 
-A cinematic portfolio website for Mehdi, a video editor focused on polished editing, motion design, color grading, and visual storytelling.
+A portfolio website for Mehdi to showcase video editing projects and attract clients.
 
-The site presents a refined personal brand with a liquid-glass navigation bar, hero section, portfolio showcase, and social/contact links.
+Built with React, TypeScript, Vite, Tailwind CSS, and Lucide React.
 
 ## Features
 
-- Responsive video editing portfolio layout
-- Cinematic hero section with custom visual identity
-- Portfolio showcase carousel
-- Liquid-glass floating navigation
-- Social links for YouTube, Instagram, GitHub, X, and email
-- Custom favicon and touch icon
+- Cinematic portfolio design
+- Responsive layout for desktop and mobile
+- Project showcase section
+- Social and email contact links
+- Custom favicon
 
-## Tech Stack
-
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Lucide React icons
-
-## Getting Started
+## Setup
 
 Install dependencies:
 
@@ -29,40 +20,16 @@ Install dependencies:
 npm install
 ```
 
-Run the development server:
+Run locally:
 
 ```bash
 npm run dev
 ```
 
-Create a production build:
+Build for production:
 
 ```bash
 npm run build
-```
-
-Preview the production build:
-
-```bash
-npm run preview
-```
-
-## Project Structure
-
-```text
-src/
-  components/
-    Aesthetics.tsx
-    DockNavbar.tsx
-    Hero.tsx
-    Links.tsx
-    Portfolio.tsx
-  App.tsx
-  main.tsx
-public/
-  favicon-512.png
-  apple-touch-icon.png
-  icon.png
 ```
 
 ## Contact
