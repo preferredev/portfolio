@@ -1,6 +1,6 @@
-# Mehdi Portfolio
+# mehdi Portfolio
 
-A portfolio website for Mehdi to showcase video editing projects and attract clients.
+A portfolio website for mehdi to showcase video editing projects and attract clients.
 
 Built with React, TypeScript, Vite, Tailwind CSS, and Lucide React.
 
