@@ -3,10 +3,10 @@ import { ArrowRight } from "lucide-react";
 
 export const Hero: React.FC = () => {
   const specialties = [
-    "Video Editor",
-    "Cinematic Storyteller",
-    "Colorist & Designer",
-    "Sound Architect",
+    "post production",
+    "video editing",
+    "color grading",
+    "professional production",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -39,9 +39,9 @@ export const Hero: React.FC = () => {
         <div className="space-y-8 text-left order-2 md:order-2 px-4 md:px-0">
           <div className="space-y-6">
             <h1 className="font-display-lg text-[44px] md:text-[68px] text-on-surface tracking-tighter leading-none">
-              Hi,{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-tertiary-container to-secondary">
-                Mehdi
+              hi,{" "}
+              <span className="text-primary">
+                mehdi
               </span>{" "}
               here.
             </h1>
@@ -71,12 +71,12 @@ export const Hero: React.FC = () => {
             </div>
 
             <p className="font-body-md text-on-surface-variant max-w-lg leading-relaxed">
-              Crafting visually stunning experiences with cinematic precision. Specializing in high-end video production, dynamic motion graphics, professional color grading, and immersive soundscapes that captivate.
+              Establishing a new era for post-production agencies through precise editing, color, and finishing.
             </p>
 
             <div className="pt-4">
               <a
-                href="mailto:contact@abdullahmehdi.com"
+                href="mailto:mehdi.outliers@outlook.com"
                 className="inline-flex items-center gap-3 px-8 py-4 bg-primary-container/10 hover:bg-primary-container/20 border border-primary-container/25 rounded-full text-primary font-body-md font-medium transition-all shadow-[0_0_15px_rgba(128,131,255,0.15)] hover:shadow-[0_0_25px_rgba(128,131,255,0.35)] group"
               >
                 Reach Out

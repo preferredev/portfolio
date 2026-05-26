@@ -41,7 +41,7 @@ export const Links: React.FC = () => {
     },
     {
       name: "Email",
-      url: "mailto:itscroop.cc@gmail.com",
+      url: "mailto:mehdi.outliers@outlook.com",
       icon: <Mail size={28} />,
     },
   ];
